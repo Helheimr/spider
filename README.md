@@ -22,4 +22,7 @@
 >原作者：linqingmaoer
 >项目地址：https://github.com/linqingmaoer/Instagram_crawler
 
-## spider_practice
+## jz_txt_spider
+
+自看小说，爬虫。时间短，处理的差，正则表达式去水印比较糟糕。
+

@@ -21,7 +21,7 @@ xhr_url = 'https://www.instagram.com/graphql/query/?query_hash=a5164aed103f24b03
 
 headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'cookie': '填自己cookie'
+    'cookie': 'PIcEC7Spx651a4t1TufOWH2GLa8YQz6n'
 }
 
 
