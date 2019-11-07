@@ -33,7 +33,9 @@
 
 - 先从网页源码抓取关键参数`pc_play_vid_sign`,re,xpath,soup都行
 - 构造异步请求就行，参数基本一样，`episodeidx`为1~集数，num为随机数，可有可无，`pc_play_vid_sign`才是决定请求的url链接。
+
 <img src="https://upload.cc/i1/2019/11/06/prC503.png" alt="UTOOLS1573024963692.png" title="UTOOLS1573024963692.png" />
+
 - 加了you-get下载，想用多线程优化，但总归来说网速一直也是满速，多线程也没必要，而且在实现pool.map函数的时候，传参时`list index out of range error`错误。就舍弃多线程。如下一直满速，比较满意。
 
 
